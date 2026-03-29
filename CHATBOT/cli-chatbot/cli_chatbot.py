@@ -1,7 +1,10 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+load_dotenv()
 client=OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key=os.getenv("OPENROUTER_API_KEY")
 )
 messages=[]
 print ("chatbot ready; lets start talking")
