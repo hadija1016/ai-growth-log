@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#C084FC"  # soft purple
+backgroundColor = "#F8F0FF"  # light lavender
+secondaryBackgroundColor = "#E9D5FF"
+textColor = "#3B0764"
+font = "sans serif"
