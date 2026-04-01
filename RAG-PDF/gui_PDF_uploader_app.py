@@ -13,11 +13,11 @@ client=OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY")
 )
 
-st.set_page_config(page_title="Girly App 💜", layout="centered")
+st.set_page_config(page_title="Lavender AI 💜", layout="centered")
 
 import streamlit as st
 
-st.set_page_config(page_title="Girly App 💜", layout="centered")
+st.set_page_config(page_title="Lavender AI 💜", layout="centered")
 
 # UI Styling + Font + Title
 st.markdown("""
